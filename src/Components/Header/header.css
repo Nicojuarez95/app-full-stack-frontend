@@ -1,0 +1,25 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px 20px 30px;
+    position: absolute;
+    width: 100%;
+}
+.logo{
+    margin-top: -40px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+    header img{
+        width: 70px;
+        height: 5.1vh;
+    }
+    .logo{
+        margin-top: -30px;
+        width: 110px;
+        height: 110px;
+        object-fit: cover;
+    }
+}

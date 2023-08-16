@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+.equis{
+    cursor: pointer;
+    width: 40px; /* Cambia el tamaño según sea necesario */
+    height: 40px; /* Cambia el tamaño según sea necesario */
+}
+
+.text-nav{
+    height: px;
+    gap: 0;
+}
+.text-nav p{
+    padding: 0;
+    line-height: 1.5;
+}
+.text-nav p{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    background: #f3f3f3;
+    border-radius:  0  10px 10px 0;
+    height: 100vh;
+    width: 430px;
+    padding: 15px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    box-shadow: inset 0px 0px 10px;
+    transition: 1s;
+}
+.perfil1{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    width: 200px;
+}
+.perfil1 h4{
+    font-weight: 500;
+    width: 200px;
+    margin: 0;
+}
+
+.perfil1 p{
+    font-size: .8rem;
+    font-weight: 0;
+    color: darkgray;
+}
+
+.perfil{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    gap: 48px;
+    width: 100%;
+    height: 46px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    color: #000000;
+}
+
+#imagen-nav{
+    width: 3rem;
+    height: 45px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.ancors-nav{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.ancors-nav a {
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    text-decoration: none;
+    height: 48px;
+    width: 382px;
+    border-radius: 8px;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    font-weight: 500;
+}
+
+.ancors-nav a:hover{
+    background-color: #4338CA!important;
+    color:  #e0dfe2 ;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .perfil{
+        width: 82%;
+    }
+    .equis{
+        width: 15px;
+        height: 15px;
+    }
+}

@@ -1,0 +1,22 @@
+.seccionHero-1{
+    background-color: rgb(240, 238, 238);
+    min-height: 100vh;
+    width: 100%;
+    padding-top: 150px;
+}
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .seccionHero-1{
+         background-color: rgb(238, 238, 238);
+        height: 100vh;
+    }
+
+    .text-seccionHero-1 p{
+        font-size: 15px;
+    }
+    .text-seccionHero-1 h2{
+        font-size: 30px;
+        margin: 0;
+    }
+}
