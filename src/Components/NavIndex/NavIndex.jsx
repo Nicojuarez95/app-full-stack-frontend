@@ -24,6 +24,8 @@ export default function NavIndex({ handleRender }) {
             <div className='ancors-nav'>
                 <Anchor to="/">Inicio</Anchor>
                 <Anchor to="/perfil">Perfil</Anchor>
+                <Anchor to="/register">Registro</Anchor>
+                <Anchor to="/login">Logeo</Anchor>
             </div>
         </nav>
     )
