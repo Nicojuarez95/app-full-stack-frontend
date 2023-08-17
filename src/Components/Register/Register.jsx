@@ -5,7 +5,6 @@ import {Link as Anchor } from 'react-router-dom'
 import { useNavigate } from 'react-router-dom'
 import { useAuth } from "../../context/AuthContext"
 
-
 export default function Register() {
     const {register, handleSubmit} = useForm()
     const {signup, user} = useAuth()
