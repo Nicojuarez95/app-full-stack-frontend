@@ -17,7 +17,7 @@ export default function Register() {
 
   return (
     <div className='cont'>
-        REGISTRO
+            REGISTRO
         <form onSubmit={onSubmit}>
             
             <input type="text" {...register("username",{required: true})} placeholder=' Nombre de usuario'/>
