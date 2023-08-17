@@ -5,7 +5,7 @@ import {Link as Anchor} from 'react-router-dom'
 export default function Login() {
   return (
     <div className='cont'>
-    INICIAR SESION
+      INICIAR SESION
     <form >
 
         <input type="email"  placeholder=' Email'/>
