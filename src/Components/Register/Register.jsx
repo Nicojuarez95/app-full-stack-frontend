@@ -7,7 +7,7 @@ import { useAuth } from "../../context/AuthContext"
 
 export default function Register() {
     const {register, handleSubmit, formState:{errors}} = useForm()
-    const {signup, isAuthenticated} = useAuth()
+    const {signup, isAuthenticated, errors: registerErrors} = useAuth()
     const navigate = useNavigate();
 
     useEffect(()=>{
@@ -22,6 +22,13 @@ export default function Register() {
   return (
     <div className='cont'>
             REGISTRO
+            {
+                registerErrors?.map((error, i)=>(
+                    <div key={i}>
+                        {error}
+                    </div>
+                ))
+            }
         <form onSubmit={onSubmit}>
             
             <input type="text" {...register("username",{required: true})} placeholder=' Nombre de usuario'/>
