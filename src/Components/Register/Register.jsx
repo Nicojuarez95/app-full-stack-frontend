@@ -12,7 +12,7 @@ export default function Register() {
     
     const onSubmit= handleSubmit(async (values) => {
         signup(values)
-        navigate("/login");
+        // navigate("/login");
     })
 
   return (
