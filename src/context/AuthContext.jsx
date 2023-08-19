@@ -13,14 +13,14 @@ export const useAuth = () => {
 
 export const AuthProvider = ({children}) => {
     const [user, setUser] = useState(null)
-    const [isAuthenticated, setIsAuthenticate] = useState(false)
+    const [isAuthenticated, setIsAuthenticated] = useState(false)
 
     const signup = async (user) => { 
         try{
             const res = await registerRequest(user)
             setUser(res.data)
-            setIsAuthenticate(true)
-            console.log(res.data.message)
+            setIsAuthenticated(true)
+            alert(res.data.message)
         }catch(error){
             console.log(error.response)
         }
