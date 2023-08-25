@@ -49,7 +49,6 @@ export default function Register() {
             </button>
             <Anchor to="/login">Ya tengo cuenta</Anchor>
         </form>
-
     </div>
   )
 }
