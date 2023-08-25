@@ -6,17 +6,17 @@ export default function Login() {
   return (
     <div className='cont'>
       INICIAR SESION
-    <form >
-        <input type="email"  placeholder=' Email'/>
+      <form >
+          <input type="email"  placeholder=' Email'/>
 
-        <input type="password"  
-        placeholder=' Constraseña'/>
+          <input type="password"  
+          placeholder=' Constraseña'/>
 
-        <button type='submit'>
-            ENTRAR
-        </button>
-        <Anchor to="/register">No tengo tengo cuenta</Anchor>
-    </form>
-</div>
+          <button type='submit'>
+              ENTRAR
+          </button>
+          <Anchor to="/register">No tengo tengo cuenta</Anchor>
+      </form>
+    </div>
   )
 }
