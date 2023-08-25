@@ -17,7 +17,6 @@ export default function Login() {
         </button>
         <Anchor to="/register">No tengo tengo cuenta</Anchor>
     </form>
-
 </div>
   )
 }
