@@ -7,7 +7,6 @@ export default function Login() {
     <div className='cont'>
       INICIAR SESION
     <form >
-
         <input type="email"  placeholder=' Email'/>
 
         <input type="password"  
