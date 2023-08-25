@@ -30,7 +30,6 @@ export default function Register() {
                 ))
             }
         <form onSubmit={onSubmit}>
-            
             <input type="text" {...register("username",{required: true})} placeholder=' Nombre de usuario'/>
                 {
                     errors.username && (<p className='textForm'>Nombre de usuario requerido</p>)
