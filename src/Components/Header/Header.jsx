@@ -6,7 +6,6 @@ import "./header.css";
 import logo from "../../img/logoChat.png"
 
 export default function Header() {
-
   const [render, setRender] = useState(false)
 
   const handleRender = () =>{
