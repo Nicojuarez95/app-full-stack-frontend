@@ -29,6 +29,7 @@ export default function Register() {
                     </div>
                 ))
             }
+            
         <form onSubmit={onSubmit}>
             <input type="text" {...register("username",{required: true})} placeholder=' Nombre de usuario'/>
                 {
