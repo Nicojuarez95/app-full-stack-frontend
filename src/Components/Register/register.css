@@ -16,7 +16,6 @@ form{
     flex-direction: column;
     align-items: center;
 }
-
 form input{
     height: 45px;
     border-radius: 5px;
