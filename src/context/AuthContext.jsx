@@ -24,7 +24,6 @@ export const AuthProvider = ({children}) => {
         }catch(error){
             setErrors(error.response.data)
         }
-            
     }
 
     return <AuthContext.Provider 
