@@ -22,7 +22,6 @@ function App() {
               <Route path="/perfil" element={<h1>Profile</h1>} />
             </Routes>
         </BrowserRouter>
-
     </AuthProvider>
   );
 }
