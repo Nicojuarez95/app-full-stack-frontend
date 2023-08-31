@@ -6,6 +6,7 @@ i img{
     display: block;
     cursor: pointer;
   }
+  
   @media (min-width: 320px) and (max-width: 767px) {
     #hamburguesa{
       width: 40px;
