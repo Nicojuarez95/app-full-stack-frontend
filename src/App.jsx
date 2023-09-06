@@ -9,6 +9,7 @@ import RegisterPage from "./Components/Register/Register";
 import LoginPage from "./Components/Login/Login";
 
 function App() {
+  
   return (
     <AuthProvider>
         <BrowserRouter>
